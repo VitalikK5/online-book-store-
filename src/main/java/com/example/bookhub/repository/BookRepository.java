@@ -1,7 +1,7 @@
-package com.example.bookhub1.repository;
+package com.example.bookhub.repository;
 
 import java.util.List;
-import com.example.bookhub1.model.Book;
+import com.example.bookhub.model.Book;
 
 public interface BookRepository {
     Book save(Book book);

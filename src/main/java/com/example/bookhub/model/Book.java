@@ -1,4 +1,4 @@
-package com.example.bookhub1.model;
+package com.example.bookhub.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,21 +1,21 @@
-package com.example.bookhub1;
+package com.example.bookhub;
 
 import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.example.bookhub1.model.Book;
-import com.example.bookhub1.service.BookService;
+import com.example.bookhub.model.Book;
+import com.example.bookhub.service.BookService;
 
 @SpringBootApplication
-public class Bookhub1Application {
+public class BookhubApplication {
     @Autowired
     private BookService bookService;
 
 
     public static void main(String[] args) {
-        SpringApplication.run(Bookhub1Application.class, args);
+        SpringApplication.run(BookhubApplication.class, args);
     }
 
     public CommandLineRunner commandLineRunner() {

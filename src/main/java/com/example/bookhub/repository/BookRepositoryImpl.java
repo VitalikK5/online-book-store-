@@ -1,4 +1,4 @@
-package com.example.bookhub1.repository;
+package com.example.bookhub.repository;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -6,8 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
-import com.example.bookhub1.exception.DataProcessingException;
-import com.example.bookhub1.model.Book;
+import com.example.bookhub.exception.DataProcessingException;
+import com.example.bookhub.model.Book;
 
 @Repository
 @RequiredArgsConstructor

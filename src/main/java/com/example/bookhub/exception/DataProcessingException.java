@@ -1,4 +1,4 @@
-package com.example.bookhub1.exception;
+package com.example.bookhub.exception;
 
 public class DataProcessingException extends RuntimeException {
     public DataProcessingException(String message, Throwable cause) {
