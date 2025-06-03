@@ -4,15 +4,14 @@ import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.bookhub.model.Book;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.bookhub.service.BookService;
 
 @SpringBootApplication
 public class BookhubApplication {
     @Autowired
     private BookService bookService;
-
 
     public static void main(String[] args) {
         SpringApplication.run(BookhubApplication.class, args);
