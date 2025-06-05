@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\BookhubApplication.java">
+<error line="7" column="1" severity="error" message="Wrong lexicographical order for &apos;com.example.bookhub.model.Book&apos; import. Should be before &apos;org.springframework.boot.SpringApplication&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" column="1" severity="error" message="Wrong lexicographical order for &apos;com.example.bookhub.service.BookService&apos; import. Should be before &apos;org.springframework.boot.autoconfigure.SpringBootApplication&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\exception\DataProcessingException.java">
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\model\Book.java">
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\repository\BookRepository.java">
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\repository\BookRepositoryImpl.java">
+<error line="7" column="1" severity="error" message="Wrong lexicographical order for &apos;com.example.bookhub.exception.DataProcessingException&apos; import. Should be before &apos;org.hibernate.SessionFactory&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" column="1" severity="error" message="Wrong lexicographical order for &apos;com.example.bookhub.model.Book&apos; import. Should be before &apos;org.hibernate.Transaction&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\service\BookService.java">
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\java\com\example\bookhub\service\BookServiceImpl.java">
+<error line="5" column="1" severity="error" message="Wrong lexicographical order for &apos;com.example.bookhub.repository.BookRepository&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\main\resources\application.properties">
+</file>
+<file name="C:\Users\DX\IdeaProjects\online-book-store-\src\test\resources\application.properties">
+</file>
+</checkstyle>

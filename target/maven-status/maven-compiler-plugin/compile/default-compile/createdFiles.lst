@@ -1,0 +1,7 @@
+com\example\bookhub\service\BookServiceImpl.class
+com\example\bookhub\repository\BookRepository.class
+com\example\bookhub\service\BookService.class
+com\example\bookhub\exception\DataProcessingException.class
+com\example\bookhub\BookhubApplication.class
+com\example\bookhub\repository\BookRepositoryImpl.class
+com\example\bookhub\model\Book.class
